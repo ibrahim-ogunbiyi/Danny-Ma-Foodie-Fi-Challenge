@@ -80,9 +80,9 @@ The Foodie-Fi team wants you to create a new payments table for the year 2020 th
 - once a customer churns they will no longer make payments
 
 ## Case Study Solution
-- [Part A]()
-- [Part B]()
-- [Part C]()
+- [Part A](https://github.com/ibrahim-ogunbiyi/Danny-Ma-Foodie-Fi-Challenge/blob/main/customer_journey.md)
+- [Part B](https://github.com/ibrahim-ogunbiyi/Danny-Ma-Foodie-Fi-Challenge/edit/main/Data%20Analysis%20Question.md)
+- [Part C](https://github.com/ibrahim-ogunbiyi/Danny-Ma-Foodie-Fi-Challenge/blob/main/Challenge.md)
 - [Part D]()
 
 
