@@ -1,5 +1,6 @@
 <h1 style="text-align: center;">🍐Danny-Ma-Foodie-Fi-Challenge 🍐</h1>
-![danny](https://github.com/ibrahim-ogunbiyi/Danny-Ma-Foodie-Fi-Challenge/assets/73393430/e2c19909-11b9-4119-af4b-a58125cfa70a)
+
+![image](https://github.com/ibrahim-ogunbiyi/Danny-Ma-Foodie-Fi-Challenge/assets/73393430/accd163f-d1fc-4434-95b5-617fd8796268)
 
 ## Background Information
 Subscription based businesses are super popular and Danny realised that there was a large gap in the market - he wanted to create a new streaming service that only had food related content - something like Netflix but with only cooking shows!
@@ -7,6 +8,52 @@ Subscription based businesses are super popular and Danny realised that there wa
 Danny finds a few smart friends to launch his new startup Foodie-Fi in 2020 and started selling monthly and annual subscriptions, giving their customers unlimited on-demand access to exclusive food videos from around the world!
 
 Danny created Foodie-Fi with a data driven mindset and wanted to ensure all future investment decisions and new features were decided using data. This case study focuses on using subscription style digital data to answer important business questions.
+
+The Link to the Challenge can be found [here](https://8weeksqlchallenge.com/case-study-3/)
+
+
+## Available Data
+  
+<details><summary>
+    All datasets exist in database schema.
+  </summary> 
+  
+ #### ``Table 1: plans``
+plan_id | plan_name | price
+-- | -- | --
+0 | trial | 0
+1 | basic monthly | 9.90
+2 | pro monthly | 19.90
+3 | pro annual | 199
+4 | churn | null
+
+#### ``Table 2: subscriptions``
+*Note: this is only customer sample*
+customer_id | plan_id | start_date
+-- | -- | --
+1 | 0 | 2020-08-01
+1 | 1 | 2020-08-08
+2 | 0 | 2020-09-20
+2 | 3 | 2020-09-27
+11 | 0 | 2020-11-19
+11 | 4 | 2020-11-26
+13 | 0 | 2020-12-15
+13 | 1 | 2020-12-22
+13 | 2 | 2021-03-29
+15 | 0 | 2020-03-17
+15 | 2 | 2020-03-24
+15 | 4 | 2020-04-29
+16 | 0 | 2020-05-31
+16 | 1 | 2020-06-07
+16 | 3 | 2020-10-21
+18 | 0 | 2020-07-06
+18 | 2 | 2020-07-13
+19 | 0 | 2020-06-22
+19 | 2 | 2020-06-29
+19 | 3 | 2020-08-29 
+
+  </details>
+
 
 ## A Customer Journey
 Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey.
@@ -27,8 +74,15 @@ Can you further breakdown this average value into 30 day periods (i.e. 0-30 days
 
 ## C. Challenge Payment Question
 The Foodie-Fi team wants you to create a new payments table for the year 2020 that includes amounts paid by each customer in the subscriptions table with the following requirements:
-
 - monthly payments always occur on the same day of month as the original start_date of any monthly paid plan
 - upgrades from basic to monthly or pro plans are reduced by the current paid amount in that month and start immediately
 - upgrades from pro monthly to pro annual are paid at the end of the current billing period and also starts at the end of the month period
 - once a customer churns they will no longer make payments
+
+## Case Study Solution
+- [Part A]()
+- [Part B]()
+- [Part C]()
+- [Part D]()
+
+
